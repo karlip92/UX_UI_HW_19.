@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-6FKDDMBV23"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-6FKDDMBV23');
+</script>
+<!-- Hotjar Tracking Code for https://karlip92.github.io/UX_UI_HW17/ -->
+<script>
+  (function(h,o,t,j,a,r){
+      h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+      h._hjSettings={hjid:2638995,hjsv:6};
+      a=o.getElementsByTagName('head')[0];
+      r=o.createElement('script');r.async=1;
+      r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+      a.appendChild(r);
+  })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+</script>
+  <link rel="stylesheet" href="CSS/style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a class="nav-item">About</a>
+            <a class="nav-item">Portfolio</a>
+            <a class="nav-item">Services</a>
+            <a class="nav-item">Contact</a>
+        </nav>
+        <div class="lang">
+            <h4>ENGLISH</h4>
+            <h4>SPANISH</h4>
+        </div>  
+    </header>
+    <section id="herosection">
+        <img src="images/foto2.png""hero image">
+        <div>
+            <h2>Hey there!! I'M</h2>
+            <h1>Karla Perez</h1>
+            <h2>UX|UI Designer</h2>
+            <p>What's my story? I am a UX designer with a Communications background. I'm passionate about creating fun and empathetic soluutions in each project</p>
+            <button class="button-items">check out my work</button>
+        </div>
+    </section>
+    <section id="expertise">
+
+        
+    <div>
+        <h1>My Expertise</h1>
+        <h3>My skills</h3>
+
+    </div>
+    <div class="flex-container">
+        <div class="flex-items">
+            <img class="skillsimage" src="images/User Research Image.png" alt="research image" width="100%">
+            <button class="button-items">User Research</button>
+        </div>
+        <div class="flex-items">
+            <img class="skillsimage" src="images/User empathy.svg" alt="research image" width="100%">
+            <button class="button-items">User Empathy</button>
+        </div>
+        <div class="flex-items">
+            <img class="skillsimage" src="images/Interviews.svg" alt="research image" width="100%">
+            <button class="button-items">Qualitative Interviews</button>
+        </div>
+     </div>
+    
+
+
+    </section>
+
+    <section id="work">
+
+        <h1>My work</h1>
+        <h3>Case Studies</h3>
+         <div class="container">
+            <div class="Mockup1">
+             <img src="images/Inner frame (Place screen inside this) 1.svg" width="100%" >  
+             <p></p>
+            </div>
+            <div class="Mockup2">
+                 <img src="images/desktop.svg" width="100%">
+            </div>
+            <div class="CS-Details1">
+              <h1>REDESIGN ENERGY GOVERNMENT WEBSITE</h1>
+              <p>Research the UI pain points that users experience while interacting with a website.</p>
+              <button class="button-items">View Case Study</button>
+            </div>
+            <div class="CS-Details2">
+              <h1>MOBILE APP DESIGN CHALLENGE</h1>
+              <p>Create a reminder app that lets you keep track of important tasks and announcements related to the government so you can be better informed.</p>
+              <button class="button-items">View Case Study</button>
+            </div>
+          </div>
+  
+
+    </section>
+
+
+
+
+
+
+
+
+    <footer>
+        <div>
+            <h4>Let's talk</h4>
+            <img class="icon" src="images/Vector.svg" alt="hero image">
+            <p>karlamarielenapg11@gmail.com</p>
+            <img class="icon" src="images/Vector-2.svg" alt="hero image">
+            <p>703-902-098</p>
+        </div> 
+        <div>
+            <h4>Social Media</h4>
+            <img class="icon" src="images/Facebook.svg" alt="hero image">
+            <img class="icon" src="images/Instagram.svg" alt="hero image">
+            <img class="icon" src="images/Twitter.svg" alt="hero image">
+        </div> 
+    </footer>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+    $(document).ready(function(){
+      // Add smooth scrolling to all links
+      $("a").on('click', function(event) {
+    
+        // Make sure this.hash has a value before overriding default behavior
+        if (this.hash !== "") {
+          // Prevent default anchor click behavior
+          event.preventDefault();
+    
+          // Store hash
+          var hash = this.hash;
+    
+          // Using jQuery's animate() method to add smooth page scroll
+          // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+          $('html, body').animate({
+            scrollTop: $(hash).offset().top
+          }, 800, function(){
+    
+            // Add hash (#) to URL when done scrolling (default click behavior)
+            window.location.hash = hash;
+          });
+        } // End if
+      });
+    });
+    </script>
+</html>
